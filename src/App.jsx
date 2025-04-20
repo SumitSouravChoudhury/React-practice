@@ -8,7 +8,7 @@
 // import ReducerCounter from "./useReducer/ReducerCounter";
 // import MemoCounter from "./useMemo/MemoCounter";
 // import Memoized from "./useCallback/Memoized";
-import Forms from "./Form/Forms";
+// import Forms from "./Form/Forms";
 // import Form from "./Form/Form";
 // import Parent from "./PropDrilling/PropDrillingAvoidance";
 // import Datas from "./CRUD/Datas";
@@ -16,6 +16,8 @@ import Forms from "./Form/Forms";
 // import Example from "./ClassComponent/Example";.
 // import Usage from "./CustomHooks/Usage";
 // import Counter from "./Redux/Counter";
+import CaraouselPage from "./Caraousel";
+import { images } from "./constants/images";
 
 function App() {
   return (
@@ -31,13 +33,14 @@ function App() {
       {/* <MemoCounter /> */}
       {/* <Memoized /> */}
       {/* <Form /> */}
-      <Forms />
+      {/* <Forms /> */}
       {/* <Parent /> */}
       {/* <Datas /> */}
       {/* <Apps /> */}
       {/* <Example /> */}
       {/* <Usage /> */}
       {/* <Counter /> */}
+      <CaraouselPage images={images} />
     </>
   );
 }
