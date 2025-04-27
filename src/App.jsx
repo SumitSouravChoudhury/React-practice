@@ -16,8 +16,10 @@
 // import Example from "./ClassComponent/Example";.
 // import Usage from "./CustomHooks/Usage";
 // import Counter from "./Redux/Counter";
-import CaraouselPage from "./Caraousel";
-import { images } from "./constants/images";
+// import CaraouselPage from "./Caraousel";
+// import { images } from "./constants/images";
+// import MainPage from "./CircleMoveWithMouse";
+import TimePicker from "./TimePicker";
 
 function App() {
   return (
@@ -40,7 +42,9 @@ function App() {
       {/* <Example /> */}
       {/* <Usage /> */}
       {/* <Counter /> */}
-      <CaraouselPage images={images} />
+      {/* <CaraouselPage images={images} /> */}
+      {/* <MainPage /> */}
+      <TimePicker />
     </>
   );
 }
